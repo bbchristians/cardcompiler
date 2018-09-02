@@ -1,0 +1,10 @@
+-- System Generated
+core:power = 5
+core:toughness = 6
+core:cost = 7
+core:name = "Powerful Creature Guy"
+core:card_type = creature
+
+-- User generated card text
+core:flying = true
+ex:weight = 1050

@@ -1,0 +1,14 @@
+{
+  "libs": [
+    {
+      "lib": "CoreLib",
+      "version": 1,
+      "namespaceVar": "core"
+    },
+    {
+      "lib": "ExtraLib",
+      "version": 1,
+      "namespaceVar": "ex"
+    }
+  ]
+}
