@@ -1,5 +1,0 @@
-package cards
-
-class Effect() {
-
-}

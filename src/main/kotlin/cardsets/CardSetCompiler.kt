@@ -1,6 +1,6 @@
 package cardsets
 
-import cards.CardCompiler
+import card.CardCompiler
 import com.google.gson.Gson
 import com.google.gson.JsonElement
 import com.google.gson.JsonParser

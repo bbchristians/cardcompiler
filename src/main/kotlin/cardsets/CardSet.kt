@@ -1,6 +1,6 @@
 package cardsets
 
-import cards.Card
+import card.Card
 
 class CardSet(
         val cards: Set<Card>

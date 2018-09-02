@@ -8,3 +8,21 @@ core:card_type = creature
 -- User generated card text
 core:flying = true
 ex:weight = 1050
+
+-- Triggered ability
+`
+on(core:card_cast,core:card_drawn) {
+    if(ex:caster_health_greater_than(10)) {
+        core:players_lose_health("ALL", 10)
+    }
+}
+`
+
+-- State based ability
+`
+always(core:other_cards_get) {
+    if(core:card_type == creature) {
+        core:increasePowerPersistent(3)
+    }
+}
+`
